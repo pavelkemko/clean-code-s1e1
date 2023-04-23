@@ -45,16 +45,16 @@
 }
 
 .to-do-list {
-  margin:0;
+  margin: 0;
   padding: 0px;
 }
 
 .task-item, .title {
-  list-style:none;
+  list-style: none;
 }
 
 .task-input, #new-task, .add, .edit, .delete{
-  outline:none;
+  outline: none;
 }
 
 .add, .edit, .delete {
@@ -162,14 +162,14 @@
 /* Edit Task */
 
 .to-do-list .task-item .task-input {
-  display:none;
+  display: none;
 }
 
 .to-do-list .edit-mode .task-input {
-  display:inline-block;
-  width:224px;
+  display: inline-block;
+  width: 224px;
 }
 
 .to-do-list .edit-mode .task {
-  display:none;
+  display: none;
 }
