@@ -44,6 +44,7 @@
 
 .tasks-wrapper {
   display: flex;
+  padding: 20px 0;
 }
 
 .to-do-list {
@@ -57,7 +58,6 @@
 }
 
 .task-input, 
-#new-task, 
 .add, 
 .edit, 
 .delete{
@@ -117,10 +117,6 @@
 .new-task {
   display: block;
   margin: 0 0 20px;
-}
-
-#new-task {
-  width: 318px;
 }
 
 /* Task list */
