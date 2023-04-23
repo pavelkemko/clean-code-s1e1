@@ -35,7 +35,8 @@
   margin: 0 auto 0;
 }
 
-.task, .task-input {
+.task, 
+.task-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -50,15 +51,22 @@
   padding: 0px;
 }
 
-.task-item, .title {
+.task-item, 
+.title {
   list-style: none;
 }
 
-.task-input, #new-task, .add, .edit, .delete{
+.task-input, 
+#new-task, 
+.add, 
+.edit, 
+.delete{
   outline: none;
 }
 
-.add, .edit, .delete {
+.add, 
+.edit, 
+.delete {
   background: none;
   border: 0px;
   color: #888;
@@ -68,7 +76,9 @@
   cursor: pointer;
 }
 
-.add:hover, .edit:hover, .delete:hover {
+.add:hover, 
+.edit:hover, 
+.delete:hover {
   color: #3a3a3a;
 }
 
