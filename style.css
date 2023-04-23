@@ -4,46 +4,59 @@
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .header {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
+
 .img-matrix {
   width: 100%;
 }
+
 .more-inf {
   font-family: fantasy, cursive;
 }
+
 @media (max-width:768px) {
+
   .header { 
     text-align: center;
   }
+
 }
+
 .main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
 .task, .task-input {
   width: 56%;
   display: inline-block;
   flex-grow: 1;
 }
+
 .tasks-wrapper {
   display: flex;
 }
+
 .to-do-list {
   margin:0;
   padding: 0px;
 }
+
 .task-item, .title {
   list-style:none;
 }
+
 .task-input, #new-task, .add, .edit, .delete{
   outline:none;
 }
+
 .add, .edit, .delete {
   background: none;
   border: 0px;
@@ -53,10 +66,13 @@
   font-family: Lato, sans-serif;
   cursor: pointer;
 }
+
 .add:hover, .edit:hover, .delete:hover {
   color: #3a3a3a;
 }
+
 /* Heading */
+
 .title,
 .new-task {
   color: #333;
@@ -67,6 +83,7 @@
   margin: 0;
   text-transform: uppercase;
 }
+
 .task-input {
   margin: 0;
   font-size: 18px;
@@ -79,20 +96,24 @@
   font-family: Lato, sans-serif;
   color: #888;
 }
+
 .task-input:focus {
   color: #333;
 }
 
 /* New Task */
+
 .new-task {
   display: block;
   margin: 0 0 20px;
 }
+
 #new-task {
   width: 318px;
 }
 
 /* Task list */
+
 .task-item {
   overflow: hidden;
   padding: 20px 0;
@@ -101,6 +122,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .task-item > * {
   vertical-align: middle;
 }
@@ -108,31 +130,37 @@
 .checkbox {
   margin: 0 10px;
 }
+
 .task-item > .task {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
   width: 226px;
 }
+
 .task-item > .task-input {
   width: 226px
 }
+
 .remove-img {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
+
 .remove-img:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
+
 #compl-tasks .task {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
+
 .to-do-list .task-item .task-input {
   display:none;
 }
